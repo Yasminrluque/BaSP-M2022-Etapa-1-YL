@@ -63,49 +63,57 @@
 }
 .article{
     position: absolute;
-    width: 400px;
+    width: 563px;
     height: 390px;
     left: 562px;
     top: 394px;
-
+    font-size: 25px;
 }
 .clock{
-    left: 550px;
-    top: 0px;
+    left: 590px;
+    top: 100px;
     float: left;
     position: absolute;
     display: flex;
-    width: 400px;
-    height: 354px;
+    width: 500px;
+    height: 454px;
 }
-.article2{
+.article2functionalities{
     position: absolute;
     width: 562px;
     height: 453px;
     left: 562px;
-    top: 800px;
+    top: 110%;
+    font-size: 25px;
 }
 .article3{
     position: absolute;
     width: 550px;
     height: 390px;
     left: 562px;
-    top: 1100px;
+    top: 150%;
+    font-size: 25px;
 }
 .form{
     position: absolute;
     width: 562px;
     height: 453px;
     left: 562px;
-    top: 1650px;
-
+    top: 260%;
+}
+.imput{
+    padding: 25px;
+}
+.formbuttons{
+    position: absolute;
+    left: 70%;
 }
 .article4{
     position: absolute;
     width: 562px;
     height: 390;
     left: 563px;
-    top: 2100px;
+    top: 300%;
 
 }
 .imghistory1{
@@ -136,7 +144,7 @@
     width: 562px;
     height: 371px;
     left: 40%;
-    top: 3000px;
+    top: 400%;
     font-size: 25px;
     display: block;
     
@@ -151,3 +159,12 @@
     left: 100%;
     top: 0%;
 }
+.footer{
+    position: absolute;
+    font-size: 25px;
+    left: 30%;
+    top: 450%;
+}
+.logos{ position: relative;
+}
+
