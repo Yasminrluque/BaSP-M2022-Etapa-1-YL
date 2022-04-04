@@ -1,1 +1,140 @@
-h1{color: aquamarine;}
+*{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;}
+
+ h1{color: black;
+    position: absolute; 
+    font: roboto;
+    font-weight: 400px;
+    font-size: 50px;
+    font-style: normal;
+    line-height: 70px;
+    text-decoration: underline;
+    right: 1395px;
+    top: 190px;
+    left: 612px;
+    height: 65px;
+    width: 200px;}
+
+.sidebar {
+    position: relative;
+    width: 390px;
+    height: 1358px; 
+    left: 0px;
+    top: 0px;
+    font: roboto;
+    background-color: #dcdada;
+    padding: 30px;
+    margin:0px;
+
+}
+.search{
+    width: 400px;
+    height: 100px;
+    align-content: center;
+    border-color: black;
+    border-radius: 30px;
+    padding: 30px;
+    position: relative;
+    left: 23%;
+    right: 23%;
+    top: 3%;
+    bottom: 93%;
+}
+.menu{position: absolute;
+    left: 8%;
+    right: 69%;
+    top: 22%;
+    bottom: 74%;
+    text-align: left;
+    padding: 10px;
+    margin: auto;
+    text-decoration: underline;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+#buttons{position: relative;
+    width: 110px;
+    height: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 70px;
+}
+.article{
+    position: absolute;
+    width: 400px;
+    height: 390px;
+    left: 562px;
+    top: 394px;
+
+}
+.clock{
+    left: 550px;
+    top: 0px;
+    float: left;
+    position: absolute;
+    display: flex;
+    width: 400px;
+    height: 354px;
+}
+.article2{
+    position: absolute;
+    width: 562px;
+    height: 453px;
+    left: 562px;
+    top: 800px;
+}
+.article3{
+    position: absolute;
+    width: 550px;
+    height: 390px;
+    left: 562px;
+    top: 1100px;
+}
+.form{
+    position: absolute;
+    width: 562px;
+    height: 453px;
+    left: 562px;
+    top: 1650px;
+
+}
+.article4{
+    position: absolute;
+    width: 562px;
+    height: 390;
+    left: 563px;
+    top: 2100px;
+
+}
+.imghistory1{
+    width: 584px;
+    height: 371px;
+}
+.imghistory2{
+    width: 584px;
+    height: 371px;
+    float: left;
+    position: absolute;
+    left: 600px;
+    top: 60%;
+}
+.texthistory1{
+    width: 584px;
+    font-size: 25px;
+}
+.texthistory2{position: absolute;
+    width: 584px;
+    height: 371px;
+    left: 600px;
+    font-size: 25px;
+    top: 10%;
+}
+.lastsection{
+    position: absolute;
+    width: 562px;
+    height: 371px;
+    left: 563px;
+    top: 3000px;
+    }
