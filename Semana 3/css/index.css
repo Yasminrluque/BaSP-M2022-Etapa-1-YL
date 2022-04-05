@@ -24,16 +24,20 @@ header {
     display: inline-block;}
 .search {
     border: 1px solid #373867;
-    border-radius: 5px;}
+    border-radius: 5px;
+    position: fixed;}
 .search i {
     display: inline}
 aside header {
     background-color:#EBEBEB ;
     border: 1px solid black;
-    padding: 30px 60px;}
+    padding: 30px 60px;
+    position: fixed;
+    width: 20%;}
 .rrlogo{
     width: 74px;
-    height: 98px;}
+    height: 98px;
+    position: relative;}
 .trackgenix{
     width: calc(100% - 89px);
     display: inline-block;
@@ -45,10 +49,15 @@ aside header {
     margin-bottom: 36px;}
 main header{
     padding: 0px 36px;
-    box-shadow: 0px 8px 16px rgba(50, 50, 71, 0.06);}
+    box-shadow: 0px 8px 16px rgba(50, 50, 71, 0.06);
+    background-color: white;
+    position: fixed;
+    width: 82%}
 .menu {
     font-size: 55px;
-    font: roboto;
+    font-family: -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+     'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 75px;
@@ -59,16 +68,22 @@ main header{
     border: 0;
     background-color: transparent;
     display: block;
-    font-size: 25px;
+    font-size: 29px;
     padding-top: 30px;
     border-bottom: 2px solid #AACE9B;
     width: 100%;
-    text-align: start;}
+    text-align: start;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;}
 .contactinfo {
     font-size: 20px;
     margin-top: 40px;
     border-bottom:  4px solid #AACE9B;
-    font: roboto slab;
+    font-family: -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     font-style: normal;
     line-height: 40px;
@@ -76,26 +91,41 @@ main header{
 .sidebar {
     background-color:#DCDADA;
     padding: 5px;
-    padding-bottom: 30px;}
+    padding-bottom: 30px;
+    width: 20%;
+    position: fixed;
+    height: 100%;
+    margin-top: 120px;}
 .contactinfop {
-    font-size: 13px;
-    font: roboto slab;
+    font-size: 19px;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500,medium;
     font-style: normal;
-    line-height: 15px;}
-h1 { font: roboto;
+    line-height: 15px;
+    margin-bottom: 30px;
+    color: #958888;}
+h1 { font-family: -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
     font-style: normal;
     line-height: 49px;
     color: black;
     display: block;
-    margin-left: 10px;}
-h2 { font: roboto;
+    margin-left: 10px;
+    margin-top: 150px;}
+h2 { font-family: -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 50px;
     font-style: normal;
     color: black;
     line-height: 75px;
-    margin-left: 100px;}
+    margin-left: 100px;
+    margin-top: 80px;
+    margin-bottom: 80px;}
 .textapp {
     font-size: 20px;
     height: 453px;
@@ -114,7 +144,9 @@ h2 { font: roboto;
     border: 1px solid #373867;
     margin: 30px;
     text-align: start;
-    font: roboto;
+    font-family: -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
@@ -132,46 +164,102 @@ h2 { font: roboto;
     margin-right: 30px;
     text-align: start;}
 .whyusespan {
-    font: roboto;
+    font-family: -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-size: 25px;
     font-weight: 400;
     line-height: 31px;}
 .whyusetext {
-    font: roboto;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20;
     font-weight: 400;
     color:#958888 ;
     font-style: normal;
     line-height: 20px;}
-.form{
+.form {
     display: block;
     width: 100%;}
-.formbuttons {
+.form1 {
     display: inline-block;
-    width: 10%; 
-    margin-right: 100px;
+    width: 49%;}
+.form2 {
+    display: inline-block;
+    width: 49%;}
+.formbuttons {
+    margin-top: 100px;
+    margin-right: 50px;
     left: 80%;
-    top: 150%;}
+    top: 150%;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    background-color: transparent;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;}
+.textarea{
+    font-size: 30px;
+    padding: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #958888;
+    border-color: #958888;
+    border-radius: 10px;}
 .inputnameemail {
     display: inline-block;
     width: 49%;
     margin-top: 20px;
     margin-left: 80px;
     color: #373867;}
-.inputmessage {
-    display: inline-block;
-    width: 49%;
-    left: 80px;}
+.message{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #373867;
+    font-style: normal;
+    font-weight: 400;}
+.inputmessage {display: block;
+    height: 30%;
+    margin-bottom: 80px;
+    margin: 100px;
+    size-adjust: 100px;}
+.input{
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #958888;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-color: #373867;}
 .contactarea {
-        margin-left:100px;
-        margin-bottom: 50px;}
+    margin-left:100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;}
 .article4 {
     display: block;
     width: 100%;}
 .history1 {
     display: inline-block;
-    width: 45%;}
+    width: 45%;
+    margin-left: 50px;}
 .history2 {
     display: inline-block;
     width: 45%;}
